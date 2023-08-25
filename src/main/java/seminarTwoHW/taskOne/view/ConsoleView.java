@@ -12,7 +12,7 @@ public class ConsoleView {
         System.out.println("Программа, которая запрашивает число и проверяет, является ли оно положительным.");
         System.out.print("Введите число: ");
         String input = scanner.nextLine();
-        ;
+
         while (!input.matches("[-]*[\\d]{1,9}")) {
             if (input.matches("[-]*[\\d]{10,}")) {
                 System.out.println("Вы ввели '" + input + "' - это слишком большое число.");
